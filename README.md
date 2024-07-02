@@ -18,22 +18,47 @@ npm run start
 ### Primer problema
 La aplicación tiene errores que no permiten ejecutarla. Lee detenidamente el código y determina dónde se encuentran los errores al ejecutarlo en la consola.
 
+#### Descripción de resolución
+El status `200` de respuesta debe de ser un `int` en vez de un `string` o bien cambiar la comparación a `==` para comparar unicamente los valores.
+
+En el argumento `d (data1)` del callback `b (callback)` de la funcion `X (fetchData)` espera un objeto y no un `string`.
+
+La función `JSON.parse` del `string` decidí ponerlo dentro de la funcion `X (fetchData)` dónde se invoca al callback `b (callback)` ya que de esa forma sólo se ejecuta una vez.
+
 ### Segundo Problema
 Una vez que tu aplicación ya esté funcionando, convierte el código a ECMAScript 6 (ES6):
-- Arrow Functions
-- Template Strings
+-[x] Arrow Functions
+-[x] Template Strings
 
 ### Tercer Problema
 Transforma el código escrito en ECMAScript 6 (ES6) para que funcione con promesas y así evitar el Callback Hell del final.
+-[x] X es un Promise
 
 ### Cuarto Problema
 Optimiza el código para mejorar su legibilidad y eficiencia.
+-[x] Async/Await
+-[x] Redirigir errores al Catch principal
 
 ### Quinto Problema
 Haz un fork y envia tu solución en un Pull Request (PR) utilizando la plantilla proporcionada.
 
+
 ### Puntos Adicionales
 Si conviertes el código a TypeScript, obtendrás puntos adicionales.
+- [x] TypeScript
+
+## Instalación
+Instalar dependencias
+
+```shell
+npm i
+```
+
+## Uso
+Ejecutar código TypeScript
+```shell
+npm run ts
+```
 
 ## Descripción de Variables y Funciones en `index.js`
 
