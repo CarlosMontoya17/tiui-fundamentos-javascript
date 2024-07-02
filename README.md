@@ -27,17 +27,18 @@ La función `JSON.parse` del `string` decidí ponerlo dentro de la funcion `X (f
 
 ### Segundo Problema
 Una vez que tu aplicación ya esté funcionando, convierte el código a ECMAScript 6 (ES6):
--[x] Arrow Functions
--[x] Template Strings
+
+- [x] Arrow Functions
+- [x] Template Strings
 
 ### Tercer Problema
 Transforma el código escrito en ECMAScript 6 (ES6) para que funcione con promesas y así evitar el Callback Hell del final.
--[x] X es un Promise
+- [x] X es un Promise
 
 ### Cuarto Problema
 Optimiza el código para mejorar su legibilidad y eficiencia.
--[x] Async/Await
--[x] Redirigir errores al Catch principal
+- [x] Async/Await
+- [x] Redirigir errores al Catch principal
 
 ### Quinto Problema
 Haz un fork y envia tu solución en un Pull Request (PR) utilizando la plantilla proporcionada.
